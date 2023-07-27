@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^8.0.1
     version: 8.0.1
   ember-animated:
-    specifier: '0.12'
-    version: 0.12.0(@babel/core@7.22.9)(ember-source@4.12.0)(webpack@5.78.0)
+    specifier: 1.0.0
+    version: 1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
   ember-auto-import:
     specifier: ^2.6.3
     version: 2.6.3(webpack@5.78.0)
@@ -4588,24 +4588,22 @@ packages:
     resolution: {integrity: sha512-GsFT9gtxkFMkpHf13UeN/RFbWdLQVs4DMxA1aQv4xdUAT2qyXEoAQ0hodl2sUvWmztOlicM1UYnNPcoMdzQB5A==}
     dev: true
 
-  /ember-animated@0.12.0(@babel/core@7.22.9)(ember-source@4.12.0)(webpack@5.78.0):
-    resolution: {integrity: sha512-AUzuTtbomyyuVwKuXmNOBiNCryGDKOUlTy/Ma8f/BEdfIBgB+cTQD4C/ISHkQ+H3WPhGJJxerLLed/4H6kGF3A==}
+  /ember-animated@1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0):
+    resolution: {integrity: sha512-kEN0xikMl29gRYbggiagben0j+njX+qu+ew+DCtabQLng40C+NOHWPGms9SHKcJrjvBNMdZRRAkUNznh9D4viA==}
     engines: {node: 12.* || 14.* || >= 16}
+    peerDependencies:
+      '@ember/test-helpers': ^2.6.0
+    peerDependenciesMeta:
+      '@ember/test-helpers':
+        optional: true
     dependencies:
       '@ember/test-helpers': 2.9.3(@babel/core@7.22.9)(ember-source@4.12.0)
+      '@embroider/addon-shim': 1.8.6
       assert-never: 1.2.1
-      ember-auto-import: 2.6.3(webpack@5.78.0)
-      ember-cli-babel: 7.26.11
-      ember-cli-htmlbars: 5.7.2
-      ember-cli-typescript: 4.2.1
-      ember-compatibility-helpers: 1.2.6(@babel/core@7.22.9)
       ember-element-helper: 0.5.5(ember-source@4.12.0)
-      ember-maybe-import-regenerator: 1.0.0
     transitivePeerDependencies:
-      - '@babel/core'
       - ember-source
       - supports-color
-      - webpack
     dev: true
 
   /ember-auto-import@2.6.3(webpack@5.78.0):
@@ -5259,18 +5257,6 @@ packages:
       ember-cli-typescript: 2.0.2(@babel/core@7.22.9)
     transitivePeerDependencies:
       - '@babel/core'
-      - supports-color
-    dev: true
-
-  /ember-maybe-import-regenerator@1.0.0:
-    resolution: {integrity: sha512-wtjgjEV0Hk4fgiAwFjOfPrGWfmFrbRW3zgNZO4oA3H5FlbMssMvWuR8blQ3QSWYHODVK9r+ThsRAs8lG4kbxqA==}
-    engines: {node: '>= 12.*'}
-    dependencies:
-      broccoli-funnel: 2.0.2
-      broccoli-merge-trees: 3.0.2
-      ember-cli-babel: 7.26.11
-      regenerator-runtime: 0.13.11
-    transitivePeerDependencies:
       - supports-color
     dev: true
 
