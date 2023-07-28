@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^8.0.1
     version: 8.0.1
   ember-animated:
-    specifier: 1.0.0
-    version: 1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
+    specifier: 1.0.4
+    version: 1.0.4(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
   ember-animated-tools:
     specifier: ^1.0.0
     version: 1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
@@ -4596,15 +4596,15 @@ packages:
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       '@embroider/addon-shim': 1.8.6
-      ember-animated: 1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
+      ember-animated: 1.0.4(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
     transitivePeerDependencies:
       - '@ember/test-helpers'
       - ember-source
       - supports-color
     dev: true
 
-  /ember-animated@1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0):
-    resolution: {integrity: sha512-kEN0xikMl29gRYbggiagben0j+njX+qu+ew+DCtabQLng40C+NOHWPGms9SHKcJrjvBNMdZRRAkUNznh9D4viA==}
+  /ember-animated@1.0.4(@ember/test-helpers@2.9.3)(ember-source@4.12.0):
+    resolution: {integrity: sha512-dqnVpHqW7Tv/GiMkdiTR+QhhHD5OaAoZCfoL0jl/D26yln5we2CftPtN/ZQ3Y7Ose5FNxovrCvGUBJp0ugfwpA==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
       '@ember/test-helpers': ^2.6.0
@@ -4614,6 +4614,7 @@ packages:
     dependencies:
       '@ember/test-helpers': 2.9.3(@babel/core@7.22.9)(ember-source@4.12.0)
       '@embroider/addon-shim': 1.8.6
+      '@embroider/macros': 1.8.0
       assert-never: 1.2.1
       ember-element-helper: 0.5.5(ember-source@4.12.0)
     transitivePeerDependencies:
