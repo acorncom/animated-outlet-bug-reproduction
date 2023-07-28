@@ -40,6 +40,9 @@ devDependencies:
   ember-animated:
     specifier: 1.0.0
     version: 1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
+  ember-animated-tools:
+    specifier: ^1.0.0
+    version: 1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
   ember-auto-import:
     specifier: ^2.6.3
     version: 2.6.3(webpack@5.78.0)
@@ -4586,6 +4589,18 @@ packages:
 
   /electron-to-chromium@1.4.474:
     resolution: {integrity: sha512-GsFT9gtxkFMkpHf13UeN/RFbWdLQVs4DMxA1aQv4xdUAT2qyXEoAQ0hodl2sUvWmztOlicM1UYnNPcoMdzQB5A==}
+    dev: true
+
+  /ember-animated-tools@1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0):
+    resolution: {integrity: sha512-BM+Z4+SNeWe7v8bqiuoHrGNGVNpBKj6ZJj+pyI0SujiM5wPagiIG+wGNdVZlqyNSCJlSyU9JSlLNs+GvQ7tSjA==}
+    engines: {node: 12.* || 14.* || >= 16}
+    dependencies:
+      '@embroider/addon-shim': 1.8.6
+      ember-animated: 1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0)
+    transitivePeerDependencies:
+      - '@ember/test-helpers'
+      - ember-source
+      - supports-color
     dev: true
 
   /ember-animated@1.0.0(@ember/test-helpers@2.9.3)(ember-source@4.12.0):
